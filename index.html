@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    
+    <!--Title-->
+    <title>Veronica Mars Trivia!</title>
+
+    <!--Style-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+    
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!--Javascript-->
+    <script type-="text/javascript" src="assets/javascript/app.js"></script>
+
+</head>
+
+<body>
+    <img src="assets/images/logo.png" alt="Mars Investigations Logo">
+    <p id="header">Veronica Mars Trivia</p>
+    <div id="trivia-box">
+        
+        <!--BUTTON-->
+        <div id="button-holder">
+            <button type="button" id="start-button" class="button">Click to Start</button>
+        </div>
+        
+        <!--COUNTDOWN-->
+        <div>
+            <p id="countdown"></p>
+        </div>
+        
+        <!--QUESTIONS DIV-->
+        <div id="quiz-questions" class="hide">
+            <!--QUESTION 1-->
+            <p>Where does Veronica live?</p>
+            <label for="p1"><input type="radio" value="A"> Newport Beach</label>
+            <label for="p1"><input type="radio" value="B"> Neptune</label>
+            <label for="p1"><input type="radio" value="C"> Huntington Beach</label>
+            
+            <!--QUESTION 2--> 
+            <p>What does a trip to the dentist mean?</p>
+            <label for="p2"><input type="radio" value="A"> Going to the dentist</label>
+            <label for="p2"><input type="radio" value="B"> Going to jail</label>
+            <label for="p2"><input type="radio" value="C"> Someone spitting in your drink</label>
+            
+            <!--QUESTION 3-->   
+            <p>What do fans of Veronica Mars call themselves?</p>
+            <label for="p3"><input type="radio" value="A"> Marshmallows</label>
+            <label for="p3"><input type="radio" value="B"> Martians</label>
+            <label for="p3"><input type="radio" value="C"> Sleuth Sisters</label>
+            
+            <!--SUBMIT BUTTON-->
+            <button id="submit" class="button">Submit</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
