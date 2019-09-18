@@ -31,11 +31,12 @@ img {
     display: none;
 }
 
-#quiz-questions {
+.quiz-options {
     text-align: center;
 }
 
-#quiz-questions p {
+.quiz-questions {
+    text-align: center;
     font-family: 'Cute Font', cursive;
     font-size: 40px;
     color: white;
@@ -72,21 +73,4 @@ label {
 label:hover {
     background:#e2e2e2;
     cursor: pointer;
-}
-.green {
-    background:#7f7;
-    border:1px solid #0c0;
-}
-
-.green:hover {
-    background:#4f4;
-}
-
-.red {
-    background:#f77;
-    border:1px solid #c00;
-}
-
-.red:hover {
-    background:#f44;
 }
